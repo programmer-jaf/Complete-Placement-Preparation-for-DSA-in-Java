@@ -110,7 +110,7 @@ Follow these steps to clone this repository and start preparing:
 2. Run the following command:
 
    ```bash
-   git clone https://github.com/Jafiruzzaman/Complete-Placement-Preparation-for-DSA-In-Java.git  
+   git clone https://github.com/programmer-jaf/Complete-Placement-Preparation-for-DSA-in-Java.git
    ```
 3. Navigate to the cloned directory:
 
