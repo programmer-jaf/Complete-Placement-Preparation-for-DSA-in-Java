@@ -10,6 +10,6 @@ public class programBreak {
      * (String[] args) --> it's a command line argument
      * System.out.println() --> when main method run it will execute as an output in terminal what ever argument it takes.
      */
-    System.out.println("java program break through");
+    System.out.println("java program break through 🧰");
   }
 }

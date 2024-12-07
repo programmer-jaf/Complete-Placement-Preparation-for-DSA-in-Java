@@ -1,6 +1,6 @@
 public class dataTypes {
   public static void main(String[] args) {
-    System.out.println("Learn about data types in java");
+    System.out.println("Learn about data types in ☕");
     // * what is datatype?
     // ? ans : datatype store different types of data with different values
     /*

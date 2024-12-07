@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class userInput {
   public static void main(String[] args) {
-    System.out.println("Let's learn about user input in java");
+    System.out.println("Let's learn about user 🖨️ in java");
     // * First import the Scanner class
     // * What is Scanner ?
     // ? ans : Scanner is built in class in java.which located in java.util package.Scanner allows to take inputs from the various resources like keyboards,files and Streams.

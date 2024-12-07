@@ -1,8 +1,8 @@
 public class variables {
   public static void main(String[] args) {
-    System.out.println("learn about variables");
+    System.out.println("learn about variables 🥛");
     // * what are variables ?
-    // ? ans: variables are container to store a value.For example, a water bottle is a variable because it can contains water
+    // ? ans: variables are container to store a value.For example, a baby milk bottle 🍼  is a variable because it can contains baby's 🥛
     // byte
     byte byteValue = 127;
     System.out.println("The byte value is "+byteValue);
