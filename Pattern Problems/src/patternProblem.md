@@ -147,4 +147,4 @@ Here are 15 pattern problems ranging from basic to advanced levels:
 
 ---
 
-Would you like solutions for any of these patterns in a specific language like C++, Java, or Python? 😊
+Here 
