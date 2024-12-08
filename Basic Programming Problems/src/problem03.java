@@ -19,5 +19,6 @@ public class problem03 {
 		int num = sc.nextInt();
 		int result= reverseInteger(num);
 		System.out.println("The reverse integer is "+result);
+		sc.close();
 	}
 }
