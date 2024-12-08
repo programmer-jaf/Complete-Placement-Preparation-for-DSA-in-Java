@@ -25,6 +25,18 @@ public class arrayProblem02 {
     }
     return secondLargest;
   }
+  //* Optimized solution
+  static int findSecondLargestOptimized(int[] arr){
+    int largest = arr[0];
+    int secondLargest = -1;
+    for (int i = 0; i < arr.length; i++) {
+      if(arr[i]>largest){
+      secondLargest = largest;
+      largest =arr[i];
+      }
+    }
+    return secondLargest;
+  }
   public static void main(String[] args) {
     System.out.println("find the second largest element in an array");
     Scanner sc = new Scanner(System.in);
@@ -38,6 +50,8 @@ public class arrayProblem02 {
     }
     int result = findSecondLargest(arr);
     System.out.println("The second largest value "+result);
+    int optimizedResult = findSecondLargestOptimized(arr);
+    System.out.println("find second largest using optimized result "+optimizedResult);
     sc.close();
   }
 }
