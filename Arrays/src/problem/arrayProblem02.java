@@ -1,7 +1,7 @@
 package problem;
 
 import java.util.Scanner;
-
+// GfG link --> https://www.geeksforgeeks.org/problems/second-largest3735/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card
 public class arrayProblem02 {
   //* brute-force using sorting like bubble,selection,insertion
   
