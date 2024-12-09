@@ -15,6 +15,14 @@ public class arrayProblem06 {
 		array[array.length-1] = temp;
 		return array;
 	}
+//	Optimized Solution
+	static void rotateArray(int[] arr){
+		int temp=arr[arr.length-1];
+		for (int i = arr.length-1; i >0; i--) {
+			arr[i] = arr[i-1];
+		}
+		arr[0] = temp;
+	}
 	public static void main(String[] args) {
 		System.out.println("Left rotate an array by One Place");
 		Scanner sc = new Scanner(System.in);
@@ -30,6 +38,13 @@ public class arrayProblem06 {
 		int[] arr = rotateOne(array);
 		for(int i : arr){
 			System.out.print(+i+" ");
+		}
+//		call Optimized method
+		rotateArray(array);
+		System.out.println("Optimized result");
+//  print values
+		for(int i : arr){
+			System.out.print(i+" ");
 		}
 	}
 }
