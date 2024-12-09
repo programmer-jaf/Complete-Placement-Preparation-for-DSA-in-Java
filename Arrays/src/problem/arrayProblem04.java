@@ -27,5 +27,6 @@ public class arrayProblem04 {
 		}
 	boolean result= isArraySorted(array);
 	System.out.println("Is the array is sorted is it "+result);
+	sc.close();
 	}
 }

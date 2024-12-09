@@ -46,5 +46,6 @@ public class arrayProblem06 {
 		for(int i : arr){
 			System.out.print(i+" ");
 		}
+		sc.close();
 	}
 }

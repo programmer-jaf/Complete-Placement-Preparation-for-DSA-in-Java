@@ -30,5 +30,6 @@ public class arrayProblem05 {
 		}
 		int result = removeDuplicates(array);
 		System.out.println("After removing duplicates there are only  "+result+" values in the array");
+		sc.close();
 	}
 }
