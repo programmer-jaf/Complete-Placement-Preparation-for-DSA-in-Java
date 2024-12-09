@@ -26,6 +26,20 @@ public class arrayProblem03 {
     }
     return secondSmallest;
   }
+    //*  Optimized Solution
+    static int findSecondSmallestOptimized(int[] arr){
+    int smallest = arr[0];
+    int secondSmallest = Integer.MAX_VALUE;
+    for (int i = 0; i < arr.length; i++) {
+      if (arr[i]<smallest) {
+        smallest=arr[i];
+        secondSmallest=smallest;
+      }else if(arr[i]<secondSmallest && arr[i]!=smallest){
+        secondSmallest=arr[i];
+      }
+    }
+    return secondSmallest == Integer.MAX_VALUE ? -1 : secondSmallest;
+    }
   public static void main(String[] args) {
     System.out.println("solve find the smallest and second smallest element in an array");
     Scanner sc = new Scanner(System.in);
@@ -41,6 +55,10 @@ public class arrayProblem03 {
     int secondSmallest = findSecondSmallest(arr);
     System.out.println("the smallest value is "+smallest);
     System.out.println("the second smallest value is "+secondSmallest);
+    
+    // optimized
+    int secondSmallestOptimized = findSecondSmallestOptimized(arr);
+    System.out.println("The Optimized second smallest "+secondSmallestOptimized);
     sc.close();
   }
 }
