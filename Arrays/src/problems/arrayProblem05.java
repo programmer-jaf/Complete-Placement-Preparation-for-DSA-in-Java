@@ -1,4 +1,4 @@
-package problem;
+package problems;
 
 // ? Leetcode Link --> https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 // ? Gfg Link --> https://www.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card

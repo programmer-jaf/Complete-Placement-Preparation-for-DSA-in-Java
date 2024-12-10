@@ -1,4 +1,4 @@
-package problem;
+package problems;
 import java.util.Scanner;
 // GfG Link --> https://www.geeksforgeeks.org/problems/largest-element-in-array4009/0
 public class arrayProblem01 {

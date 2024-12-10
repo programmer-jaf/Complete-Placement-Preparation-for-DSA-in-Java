@@ -1,4 +1,4 @@
-package problem;
+package problems;
 import java.util.Scanner;
 
 // Gfg link --> https://www.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1
