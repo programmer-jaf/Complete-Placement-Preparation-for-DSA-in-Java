@@ -8,11 +8,11 @@ public class arrayProblem02 {
   // * better-solution
   static int findLargest(int[] arr){
     int largest = arr[0];
-    for (int i = 0; i < arr.length; i++) {
-      if(arr[i]>largest){
-        largest=arr[i];
+      for (int j : arr) {
+          if (j > largest) {
+              largest = j;
+          }
       }
-    }
     return largest;
   }
   static int findSecondLargest(int[] arr){

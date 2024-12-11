@@ -6,11 +6,11 @@ public class arrayProblem01 {
   // ? Optimized
   static int findLargest(int[] arr){
     int largest=arr[0];
-    for (int i = 0; i < arr.length; i++) {
-      if (arr[i]>largest) {
-        largest = arr[i];
+      for (int j : arr) {
+          if (j > largest) {
+              largest = j;
+          }
       }
-    }
     return largest;
   }
   public static void main(String[] args) {

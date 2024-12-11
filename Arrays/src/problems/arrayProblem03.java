@@ -8,11 +8,11 @@ public class arrayProblem03 {
   // * find smallest
   static int findSmallest(int[] arr){
   int smallest = Integer.MAX_VALUE;
-  for (int i = 0; i < arr.length; i++) {
-    if(arr[i]<smallest){
-      smallest=arr[i];
-    }
-  }
+      for (int j : arr) {
+          if (j < smallest) {
+              smallest = j;
+          }
+      }
   return smallest;
   }
   // * find secondSmallest
